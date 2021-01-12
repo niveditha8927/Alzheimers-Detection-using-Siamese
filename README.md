@@ -11,3 +11,9 @@ Train_res_fit.py is the training file.
 
 Note:
 Keep the triplets generation file - gen_pairs_oasis and other files in the same directory.
+
+Preprocessing of raw MRI scans to smoothed Gray Matter volume maps done as shown in the figure - 
+https://www.youtube.com/watch?v=YVDG9cjnUPU&feature=youtu.be
+
+Final volume map is sliced into 2D slices which are used grouped into Triplets and used in the network. Volume map breaking into slices and Triplets generated in the file gen_pairs_oasis.py.
+
